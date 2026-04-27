@@ -148,4 +148,3 @@ A real estate market intelligence dashboard for Dubai properties, segmenting the
 - **Features Used:** Cross-report drill-through, custom measures, date table integration, quarter-level filtering
 
 ---
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/4348bef4-9c7a-4537-931c-c53f1e7df5ed" />
