@@ -149,7 +149,3 @@ A real estate market intelligence dashboard for Dubai properties, segmenting the
 
 ---
 
-## Author
-
-**Poorvika**  
-Created: April–April 2026
