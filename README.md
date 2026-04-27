@@ -5,6 +5,7 @@ A collection of three interactive Power BI dashboards built to explore and visua
 ---
 
 ## 1. E-Commerce Sales Dashboard
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/ba4a6f8b-fc06-4dee-921b-1b1347d45ea9" />
 
 **File:** `ECOMMERECE SALES DASHBOARD.pbix`  
 **Dataset:** `Details` table — 1,500 rows
@@ -47,6 +48,7 @@ An interactive sales performance dashboard tracking revenue, profit, quantity, a
 ---
 
 ## 2. Online Retail Dataset Analysis
+<img width="1119" height="625" alt="Image" src="https://github.com/user-attachments/assets/c03a5f8b-2490-4a14-a20b-df0910e643da" />
 
 **File:** `Online retail dataset Analysis.pbix`  
 **Dataset:** `Sheet1` table — 4,00,947 rows
@@ -91,7 +93,7 @@ A comprehensive retail analytics dashboard analysing revenue, customer behaviour
 ---
 
 ## 3. Dubai Real Estate Intelligence Dashboard
-
+<img width="1281" height="719" alt="Image" src="https://github.com/user-attachments/assets/63c1abec-2c0c-46ec-ad93-76e691a8ec68" />
 **File:** `House_price_Dashboard.pbix`  
 **Dataset:** `housing_price_dataset` table — 50,000 rows
 
