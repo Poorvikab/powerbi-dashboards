@@ -94,6 +94,7 @@ A comprehensive retail analytics dashboard analysing revenue, customer behaviour
 
 ## 3. Dubai Real Estate Intelligence Dashboard
 <img width="1281" height="719" alt="Image" src="https://github.com/user-attachments/assets/63c1abec-2c0c-46ec-ad93-76e691a8ec68" />
+
 **File:** `House_price_Dashboard.pbix`  
 **Dataset:** `housing_price_dataset` table — 50,000 rows
 
@@ -146,5 +147,52 @@ A real estate market intelligence dashboard for Dubai properties, segmenting the
 - **Data Sources:** CSV / Excel imports
 - **Visualisation Types:** Bar charts, line charts, donut/pie charts, treemaps, KPI cards, slicers
 - **Features Used:** Cross-report drill-through, custom measures, date table integration, quarter-level filtering
+
+---
+## 4. U.S. Airline Performance & Delay Analysis
+<img width="1132" height="637" alt="Image" src="https://github.com/user-attachments/assets/63789d4c-a056-43ad-9032-5f7891b70bda" />
+
+**File:** `US_Airline_Performance_Delay_Analysis.pbix`  
+**Dataset:** U.S. domestic flight records — 6M rows (2015)
+
+### Overview
+An interactive dashboard analysing on-time performance, delays, cancellations, and diversions across U.S. domestic flights, with airport-level and airline-level breakdowns of delay causes.
+
+### Key Metrics
+| Metric | Value |
+|--------|-------|
+| Total Flights | 6M |
+| OTP Rate | 82.41% |
+| Avg Arrival Delay | 4.41 min |
+| Cancellation Rate | 1.54% |
+| Diversion Rate | 0.26% |
+
+### Visuals
+- **Avg Arrival Delay by Month** — Line chart tracking average arrival delay trends across months
+- **Worst Airports by Average Delay** — Horizontal bar chart ranking airports (Wilmington, Gustavus, Pago Pago, St. Cloud, Jack Brooks, Aspen-Pitkin, Southwest) by average delay
+- **Airport Performance Map** — Geographic map plotting flight volume and delay concentration across North America
+- **Top 10 Airlines by OTP** — Horizontal bar chart comparing on-time performance rates (Hawaiian, Alaska, Delta, American, US Airways, Skywest, Southwest)
+- **Delay Cause Breakdown** — Donut chart splitting delay minutes by cause: Airline Delay (32.2%), Late Aircraft Delay (39.84%), Air System Delay (22.88%), Weather Delay (4.95%), Security Delay (0.13%)
+
+### Filters
+- Airline Name dropdown
+- Cancellation Reason dropdown
+- Month dropdown
+- Origin Airport Name dropdown
+
+### Data Schema
+| Column | Type |
+|--------|------|
+| Airline Name | Text |
+| Origin Airport Name | Text |
+| Month | Number |
+| Avg Arrival Delay Numeric | Number |
+| OTP Rate | Decimal |
+| Cancellation Reason | Text |
+| Airline Delay | Number |
+| Air System Delay | Number |
+| Weather Delay | Number |
+| Late Aircraft Delay | Number |
+| Security Delay | Number |
 
 ---
